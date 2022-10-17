@@ -330,7 +330,7 @@ button, input{
 
 .home__img{
     margin-left: 3rem;
-    background: url(img/photo-perso/3\ copie.jpg);
+    background: url(img/photo-perso/photo-profil.jpg);
     background-position: center;
     background-size: cover;
     box-shadow: inset 0 0 0 5px var(--skin-color);
@@ -839,7 +839,7 @@ footer{
     border: 2px solid var(--skin-color);
     border-radius: 50%;
     font-size: 1.5em;
-    transform: rotate(calc(360deg / -5 * var(--i)));
+    transform: rotate(calc(360deg / -4 * var(--i)));
 
 }
 
@@ -853,7 +853,7 @@ footer{
 }
 .menufooter.activeli li{
 
-    transform: rotate(calc(360deg / 5 * var(--i))) translateX(0px);
+    transform: rotate(calc(360deg / 4 * var(--i))) translateX(0px);
 }
 
 .menufooter .toggle-2{
