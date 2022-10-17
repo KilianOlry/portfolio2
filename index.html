@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+      <!-- Lien pour accéder à la bibliothèque iconify -->
+      <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+
+    <title>Portfolio</title>
+</head>
+<body>
+                                                        <!-- Navbar gauche -->
+
+
+
+<div class="nav__toggle" id="nav-toggle"><iconify-icon icon="charm:menu-hamburger"></iconify-icon></div>
+    <aside class="sidebar" id="sidebar">
+        <nav class="nav">
+            <div class="nav__logo">
+                <a href="index.html" class="nav__logo-text">K</a>
+            </div>
+            
+            <div class="nav__menu">
+                <div class="menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Accueil</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">A propos</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">Skills</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#work" class="nav__link">Projetc</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="btn__share">
+                <input type="color" id="one">
+            </div>
+
+            <div class="nav__close" id="nav-close">
+                <iconify-icon icon="akar-icons:cross"></iconify-icon>
+            </div>
+        </nav>
+
+    </aside>
+
+
+
+
+                                                    <!-- Main -->
+
+
+    <main class="main">
+
+                                                    <!-- Home -->
+        
+            <section class="home" id="home">
+                    <div class="home__container container grid">
+                        <div class="home__social">
+                            <span class="home__social-follow">Follow Me</span>
+                            <div class="home_social-links">
+                                <a href="https://www.linkedin.com/in/kilian-olry-58038b1a6/" target="_blank" class="home__social-link">
+                                    <iconify-icon icon="akar-icons:linkedin-box-fill"></iconify-icon>
+                                </a>
+                                <a href="https://github.com/KilianOlry" target="_blank" class="home__social-link">
+                                    <iconify-icon icon="akar-icons:github-fill"></iconify-icon>
+                                </a>
+                            </div> 
+                        </div>
+
+
+
+                        <article>
+
+                        <div class="home__data">
+                            <h1 class="home__title">Bonjour je m'appelle Kilian</h1>
+                            <h3 class="home__subtitle">Future Développeur web</h3>
+                            <p class= "home__decription">Actuelement en formation Développeur web / web mobile</p>
+                            <a href="#about" class="button"><iconify-icon icon="carbon:user-avatar-filled" class="button__icon"></iconify-icon>Pour plus d'informations</a>
+                            
+                        </div>
+
+                        <div class="home__img"></div>
+                    </article>
+
+                        <div class="my__info">
+                            <div class="info__item">
+                                <iconify-icon icon="akar-icons:whatsapp-fill" class="info__icon"></iconify-icon>
+
+                                <div>
+                                    <h3 class="info__title">Whatsapp</h3>
+                                    <span class="info__subtitle">07-77-39-06-74</span>
+                                </div>
+                            </div>
+
+
+
+                            <div class="info__item">
+                                <iconify-icon icon="charm:mail" class="info__icon"></iconify-icon>
+                                <div>
+                                    <h3 class="info__title">Email</h3>
+                                    <a href="mailto:kilian.olry@gmail.com" class="info__subtitle">kilian.olry@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+            </section>
+
+
+            <section class="about section" id="about">
+
+                <h2 data-heading="My intro" class="section__title">À propos</h2>
+
+                <div class="about__container container grid">
+                    <img src="img/photo-perso/sigmund-UmaojK7erQo-unsplash.jpg" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <h3 class="about__heading">Bonjour je suis Kilian Olry, j'habite à Orléans</h3>
+                        <p class="about__description"> Futur Développeur web je suis débutant mais très motivé</p>
+
+                        <div class="about__info grid">
+                            <div class="about__box">
+                                <iconify-icon icon="entypo:suitcase" class="about__icon"></iconify-icon>
+                                <h3 class="about__title">Experience</h3>
+                                <span class="about__subtitle">BAC+2</span>
+                            </div>
+
+                            <div class="about__box">
+                                <iconify-icon icon="majesticons:image-photography" class="about__icon"></iconify-icon>
+                                <h3 class="about__title">Projet</h3>
+                                <span class="about__subtitle">32 projet fini</span>
+                            </div>
+
+                            <div class="about__box">
+                                <iconify-icon icon="academicons:cv-square" class="about__icon"></iconify-icon>
+                                <h3 class="about__title">Mon cv</h3>
+                                <a href="img/photo-perso/A4 - 1.pdf " download="CV" class="about__subtitle">Download CV</a>
+                            </div>
+                        </div>
+                    
+                    <a href="#contact" class="button">
+                        <iconify-icon icon="carbon:send-alt-filled" class="button__icon"></iconify-icon>
+                        Contact Me</a>
+                    </div>
+                </div>
+            </section>
+
+                                                    <!-- Progress bar html -->
+        
+
+            <section class="skills" id="skills">
+                <h2 data-heading="Mon Experience" class="section__title">Compétences</h2>
+
+                <div class="skills__container">
+                    <div class=" card skills__html">
+                        <div class="percent" style="--num:75;">
+                            <div class="dot"></div>
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h2>75<span>%</span></h2>
+                                <p>HTML</p>
+                            </div>
+                        </div>
+                    </div>
+
+                                                    <!-- Progress bar css -->
+                    <div class=" card skills__css">
+                        <div class="percent" style="--num:75;">
+                            <div class="dot"></div>
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h2>75<span>%</span></h2>
+                                <p>CSS</p>
+                            </div>
+                        </div>
+
+                    </div>
+                                                    <!-- Progress bar javascript -->
+
+                    <div class=" card skills__js">
+                        <div class="percent" style="--num:5;">
+                            <div class="dot"></div>
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h2>5<span>%</span></h2>
+                                <p>JAVASCRIPT</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                                                    <!-- Progress bar figma -->
+                    <div class=" card skills__figma">
+                        <div class="percent" style="--num:65;">
+                            <div class="dot"></div>
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h2>65<span>%</span></h2>
+                                <p>FIGMA</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                                                    <!-- Progress bar bootstrap -->
+
+                    <div class=" card skills__bootstrap">
+                        <div class="percent" style="--num:40;">
+                            <div class="dot"></div>
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h2>40<span>%</span></h2>
+                                <p>BOOTSTRAP</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                                                    <!-- Progress bar sass -->
+
+                    <div class=" card skills__sass">
+                        <div class="percent" style="--num:50;">
+                            <div class="dot"></div>
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h2>50<span>%</span></h2>
+                                <p>SASS</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                                                    <!-- Progress bar photoshop -->
+
+
+                    <div class=" card skills__photoshop">
+                        <div class="percent" style="--num:65;">
+                            <div class="dot"></div>
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h2>55<span>%</span></h2>
+                                <p>PHOTOSHOP</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class=" card skills__git">
+                        <div class="percent" style="--num:65;">
+                            <div class="dot"></div>
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h2>55<span>%</span></h2>
+                                <p>GIT</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+                                                    <!-- Section portfolio-->
+
+
+            <section class="work section" id="work">
+                <h2 data-heading ="Mon portfolio" class="section__title">Mes créations</h2>
+
+                <!-- <div class="work__filters">
+                    <span class="work__item active-work" data-filter="all">Tous</span>
+                    <span class="work__item"data-filter=".web">Web</span>
+                    <span class="work__item"data-filter=".figma">Figma</span>
+                    <span class="work__item">photoshop</span>
+                </div> -->
+
+                <div class="work__container">
+                    <div class="work__card mix figma">
+                        <img src="img/figma/figma__accueil copie.jpg" alt="" class="work__img">
+                        <h3 class="work__title">Maquette Figma</h3>
+                        <span class="work__button">Demo
+                        <iconify-icon icon="icon-park-outline:go-end" class="work__button-icon"></iconify-icon>
+                        </span>
+
+                        <div class="portfolio__item-details">
+                            <h3 class="details__title">Maquette pour le centre Afpa</h3>
+                            <p class="details__description">Réalisé grâce au logiciel figma</p>
+                            <ul class="details__info">
+                                <li>Technologies - <span>Figma</span></li>
+                                <li>Role - <span>Design</span></li>
+                                <li>View - <span><a href="#">le lien vers le site</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                
+
+
+                    <div class="work__card mix web">
+                        <img src="img/site voiture/site__cars.jpg" alt="" class="work__img">
+                        <h3 class="work__title">Projet site de voitutre</h3>
+                        <span class="work__button">Demo
+                        <iconify-icon icon="icon-park-outline:go-end" class="work__button-icon" ></iconify-icon>
+                        </span>
+
+                        <div class="portfolio__item-details">
+                            <h3 class="details__title">Site voiture</h3>
+                            <p class="details__description">Site vitrine automobile</p>
+                            <ul class="details__info">
+                                <li>Technologies - <span>html css</span></li>
+                                <li>Développement - <span>frontend</span></li>
+                                <li>View - <span><a href="#">le lien vers le site</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="work__card mix web">
+                        <img src="img/bootstrap/Sans titre-2.jpg" alt="" class="work__img">
+                        <h3 class="work__title">Projet Bootstrap</h3>
+                        <span class="work__button">Demo
+                        <iconify-icon icon="icon-park-outline:go-end" class="work__button-icon" ></iconify-icon>
+                        </span>
+
+                        <div class="portfolio__item-details">
+                            <h3 class="details__title">Bootstrap projet afpa</h3>
+                            <p class="details__description">Projet d'un portfolio fictif de développeur web</p>
+                            <ul class="details__info">
+                                <li>Technologies - <span>html/csbootstrap</span></li>
+                                <li>Développement - <span>frontend</span></li>
+                                <li>View - <span><a href="#">le lien vers le site</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <div class="portfolio__popup">
+                <div class="portfolio__popup-inner">
+                    <div class="portfolio__popup-content grid">
+                        <span class="portfolio__popup-close"><iconify-icon icon="akar-icons:cross"></iconify-icon></span>
+                        <div class="pp__thumbnail">
+                            <img src="img/figma/figma__accueil copie.jpg" alt="" class="portfolio__popup-img">
+                        </div>
+                        <div class="portfolio__popup-info">
+                            <div class="portfolio__popup-subtitle"><span>Figma</span></div>
+                            <div class="portfolio__popup-body">
+                                <h3 class="details__title">Maquette Figma</h3>
+                            <p class="details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis illum consequuntur sunt.</p>
+                            <ul class="details__info">
+                                <li>Technologies - <span>html css</span></li>
+                                <li>View - <span><a href="#">le lien vers le site</a></span></li>
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <footer id="contact">
+                
+                <h2 data-heading ="Contact " class="section__title">Me contacter</h2>
+<div class="parent">
+                <ul class="menufooter">
+                    <div class="toggle-2"><iconify-icon icon="healthicons:ui-user-profile"></iconify-icon></div>
+                    <li style="--i:0;"><a href="https://www.linkedin.com/in/kilian-olry-58038b1a6/" target="_blank"><iconify-icon icon="akar-icons:linkedin-box-fill"></iconify-icon></a></li>
+                    <li style="--i:1;"><a href="https://github.com/KilianOlry" target="_blank"><iconify-icon icon="akar-icons:github-fill"></iconify-icon></a></li>
+                    <li style="--i:2;"><a href="#"><iconify-icon icon="akar-icons:whatsapp-fill"></iconify-icon></a></li>
+                    <li style="--i:3;"><a href="#"><iconify-icon icon="cib:messenger"></iconify-icon></a></li>
+                    <li style="--i:4;"><a href="mailto:kilian.olry@gmail.com"><iconify-icon icon="charm:mail"></iconify-icon></a></li>
+                    <!-- <li style="--i:5;--clr:#a529ff;"><a href="#"><iconify-icon icon="tabler:clock-hour-4"></iconify-icon></a></li> -->
+                    <!-- <li style="--i:6;--clr:#01dbab;"><a href="#"></a></li>   -->
+                    <!-- <li style="--i:7;--clr:red;"><a href="#"></a></li>   -->
+            
+                </ul>
+            </div>
+            </footer>
+
+      <!-- Lien vers le fichier JS -->
+      <script src="/script.js"></script>
+</body>
+</html>
